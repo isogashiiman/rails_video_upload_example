@@ -1,0 +1,7 @@
+= link_to 'add new video', new_video_path
+- @videos.each do |v|
+  h2
+    = v.title
+    = link_to '(delete)', video_path(v), method: :delete
+  = video_tag(v.video, controls: true)
+  hr

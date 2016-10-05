@@ -10,6 +10,11 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
+gem 'slim'
+gem 'simple_form'
+
+gem 'paperclip', '~> 5.0.0'
+gem 'paperclip-av-transcoder'
 
 group :development, :test do
   gem 'byebug', platform: :mri
