@@ -1,24 +1,13 @@
-# README
+```
+git clone https://github.com/Fahrenhei7/rails_video_upload_example.git
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+cd rails_video_upload_example
 
-Things you may want to cover:
+sudo apt-get install ffmpeg
 
-* Ruby version
+bundle install
 
-* System dependencies
+rails db:migrate
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rails s
+```
